@@ -1,35 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300;1,700&display=swap');
 
-.banner__container{
-    color: rgb(138, 138, 138);
-    border: 1.5px solid white;
-    height: 100vh;
-    display:flex ;
-    align-items: center;
+.banner__container {
+    position: relative;
+    color: rgb(249, 249, 249);
+    border: .5em solid white;
+    border-radius: 5%;
+    height: 95vh;
+    width: 100%;
+    padding: 3em;
+    display: flex;
     justify-content: center;
-}
+    background-image: url('../../assets/img/circuitry.png');
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center center;
+    box-shadow: 10px 10px 25px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 25px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 25px 0px rgba(0,0,0,0.75);
+  }
 
 .banner__container--row{
     width: 100%;
-    font-family: 'Kanit', sans-serif;
 
     .row__col--title{
         font-size: 3.5em;
+        font-family: 'Kanit', sans-serif;
+        color:rgb(207, 207, 207)
+
     }
 
     .row__col--img{
         width: 16em;
         height: 15em;
         margin: 4em;
+        padding: 5px;
+        border: .5em solid rgb(172, 154, 51);
     }
 
     .row__col--p{
         font-size: 20px;
         font-family: 'Lato', sans-serif;
         font-weight: 700;
-        color:rgb(194, 181, 164)
+        color:rgb(207, 207, 207)
+    }
+
+    .row__col--button{
+        margin: 2em;
     }
 }
+
+.giro {
+    transform: rotateY(360deg);
+    transition: transform 1s ease-out;
+  }
 
 
