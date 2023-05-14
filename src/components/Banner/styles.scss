@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300;1,700&display=swap');
+
+.banner__container{
+    color: rgb(138, 138, 138);
+    border: 1.5px solid white;
+    height: 100vh;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner__container--row{
+    width: 100%;
+    font-family: 'Kanit', sans-serif;
+
+    .row__col--title{
+        font-size: 3.5em;
+    }
+
+    .row__col--img{
+        width: 16em;
+        height: 15em;
+        margin: 4em;
+    }
+
+    .row__col--p{
+        font-size: 20px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+        color:rgb(194, 181, 164)
+    }
+}
+
+
